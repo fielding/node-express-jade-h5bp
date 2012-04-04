@@ -1,0 +1,19 @@
+{
+  "name": "node-express-jade-h5bp",
+  "description": "html5 boilerplate with node.js, express and hade templates",
+  "author": "Fielding Johnston <fielding@justfielding.com>",
+  "engine": "node >= 0.6.12",
+  "dependencies": {
+    "express": ">= 3.0.0",
+    "jade": ">= 0.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:justfielding/node-express-jade-h5bp.git"    
+  },
+  "scripts": {
+    "sup": "supervisor app.js",
+    "for": "forever start app.js" 
+  },
+  "version": "0.1.0"
+}
